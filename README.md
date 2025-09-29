@@ -73,7 +73,7 @@ Minimum setup:
 
 ## 🚀 Next Steps
 
-- Vibers → Check [`INSTRUCTIONS-vibers.md`](./INSTRUCTIONS-vibers.md)  
-- Specifiers → Check [`INSTRUCTIONS-specifiers.md`](./INSTRUCTIONS-specifiers.md)  
+- Vibers → Check [`INSTRUCTIONS-vibers.md`](./teams/INSTRUCTIONS-vibers.md)  
+- Specifiers → Check [`INSTRUCTIONS-specifiers.md`](./teams/INSTRUCTIONS-specifiers.md)  
 
 Good luck, and have fun!
