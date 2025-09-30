@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Creator App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Team Creator App</h1>
+            <p>Organize participants into balanced teams with technical distribution</p>
+        </header>
+
+        <main class="main-layout">
+            <!-- Left Column: Controls and Participants -->
+            <div class="left-column">
+                <!-- Controls Row -->
+                <div class="controls-row">
+                    <!-- Participant Input Section -->
+                    <section class="input-section">
+                        <h2>Add Participants</h2>
+                        <form id="participant-form" class="participant-form">
+                            <div class="form-group">
+                                <label for="participant-name">Name:</label>
+                                <input type="text" id="participant-name" placeholder="Enter participant name" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="is-technical">
+                                    <span class="checkmark"></span>
+                                    Technical participant
+                                </label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Add Participant</button>
+                        </form>
+                    </section>
+
+                    <!-- Team Generation Section -->
+                    <section class="team-generation-section">
+                        <h2>Generate Teams</h2>
+                        <div class="team-controls">
+                            <div class="form-group">
+                                <label for="team-size">Team Size:</label>
+                                <input type="number" id="team-size" min="2" max="10" value="3" required>
+                            </div>
+                            <button id="generate-teams" class="btn btn-secondary">Generate Teams</button>
+                            <div id="team-advice" class="team-advice"></div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Participants List Section -->
+                <section class="participants-section">
+                    <div class="participants-header">
+                        <h2>Current Participants</h2>
+                        <button id="clear-all-participants" class="btn btn-danger btn-small">Clear All</button>
+                    </div>
+                    <div id="participants-list" class="participants-list">
+                        <p class="empty-state">No participants added yet</p>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Right Column: Teams -->
+            <div class="right-column">
+                <!-- Teams Display Section -->
+                <section class="teams-section">
+                    <h2>Generated Teams</h2>
+                    <div id="teams-display" class="teams-display">
+                        <p class="empty-state">No teams generated yet</p>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
