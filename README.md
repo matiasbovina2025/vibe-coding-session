@@ -10,12 +10,25 @@ At the end we’ll compare processes, not just results.
 
 ---
 
-## 🕒 Agenda (90 minutes)
+## 🕒 Agenda (2h30)
 
-- **0:00 – 0:10** → Introduction & group setup  
-- **0:10 – 1:00** → Work in groups  
-- **1:00 – 1:20** → Presentations (compare Vibers vs Specifiers per app)  
-- **1:20 – 1:30** → Wrap-up & reflections  
+- **0:00 – 0:20** → Introduction & group setup  
+  - Explain Vibe Coding vs Spec-Driven  
+  - Rules and tools setup  
+  - Split into groups (6 total: 3 apps × 2 styles)
+
+- **0:20 – 1:40** → Work in groups (80 min)  
+  - Each group develops their app (Vibers vs Specifiers)  
+  - Facilitators support setup, but no coding help  
+
+- **1:40 – 2:10** → Presentations (30 min)  
+  - Each app: Vibers show → Specifiers show → Quick compare  
+  - Focus on *process* differences (not who “coded better”)
+
+- **2:10 – 2:30** → Wrap-up & reflections (20 min)  
+  - What worked well / what was frustrating  
+  - What changed when using a spec  
+  - Key learnings & takeaways
 
 ---
 
@@ -35,18 +48,27 @@ There are 3 apps. Each app will have **2 teams** → 1 Vibers + 1 Specifiers.
 
 ### 1. Daily Facilitator (Wheel of Names)
 - Input: list of names.  
-- Features: add/remove names, pick a random facilitator.  
-- Output: selected facilitator.  
+- Features:  
+  - Add/remove names.  
+  - Pick a random facilitator (no repeats until everyone has been chosen once).  
+  - Show history of who facilitated before.  
+- Output: selected facilitator + history.  
 
 ### 2. Pair Creator
 - Input: list of names + anchors (tickets).  
-- Feature: create pairs with anchors.  
+- Features:  
+  - Create pairs with anchors.  
+  - Allow reshuffling → generate new pairs without losing the input list.  
 - Output: list of pairs with their assigned anchor.  
 
 ### 3. To-do / Decision Helper
 - Input: tasks.  
-- Features: mark/unmark as completed, filter pending.  
-- Output: filtered list of tasks.  
+- Features:  
+  - Mark/unmark as completed.  
+  - Filter pending or completed.  
+  - Add **priority** (low / medium / high).  
+  - Sort tasks by priority.  
+- Output: filtered and sorted list of tasks.  
 
 ---
 
